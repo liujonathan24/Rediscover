@@ -116,11 +116,13 @@ export default function Map () {
   if (loadError) return "Error";
   if (!isLoaded) return "Loading...";
   return (
-    <div style={{padding:"4vh"}} className="font-mono">
-      <div className='bg-white flex flex-col justify-center items-center'>
+    <div  className="font-mono">
+      <div className='bg-white flex flex-col justify-center items-center' style={{backgroundColor:"#45e6d3"}}>
         <h1 className='lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14'>
           Trails
         </h1>
+      </div>
+      <div className='bg-white flex flex-col justify-center items-center'>
         <Locate panTo={panTo} />  
         <Search panTo={panTo} />  
       </div>

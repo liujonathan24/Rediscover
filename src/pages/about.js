@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
   return (
     <div>
-      <div className='bg-white flex flex-col justify-center items-center' style = {{backgroundColor: "#a340ff"}}>
+      <div className='bg-white flex flex-col justify-center items-center font-mono' style = {{backgroundColor: "#a340ff"}}>
           <h1 className='lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14' >
             About
           </h1>

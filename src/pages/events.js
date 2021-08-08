@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Events = () => {
   return (
 
-    <div>
+    <div className="font-mono">
       <div className='bg-white flex flex-col justify-center items-center' style = {{backgroundColor: "#34d399"}}>
         <h1 className='lg:text-9xl md:text-7xl sm:text-5xl text-3xl font-black mb-14' >
           Events
