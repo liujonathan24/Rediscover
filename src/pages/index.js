@@ -24,8 +24,8 @@ const Home = () => {
   return (
     <div>
       <div className="w-3/4 max-w-3xl mx-auto my-8 text-center">
-        <h1 className={"text-5xl font-bold mb-2"}>Re-Discover Wellesley</h1>
-        <p className={"mb-2"}>your town...</p>
+        <h1 className={"text-5xl font-bold mb-2"}>Rediscover Wellesley</h1>
+        <p className={"mb-2"}>See your town for what it is.</p>
       </div>
       <div style={{paddingLeft:"20vw", paddingRight:"20vw", paddingTop:"2vh", paddingBottom:"2vh"}}>
         <SimpleImageSlider
