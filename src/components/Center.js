@@ -254,7 +254,7 @@ export default function Center () {
         <Locate panTo={panTo} />  
         <Search panTo={panTo} />  
       </div>
-      <div style={{padding:"4vh"}}>
+      <div>
         <GoogleMap
           id="map"
           mapContainerStyle={mapContainerStyle}
