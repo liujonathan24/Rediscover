@@ -29,8 +29,8 @@ const Home = () => {
       </div>
       <div style={{paddingLeft:"20vw", paddingRight:"20vw", paddingTop:"2vh", paddingBottom:"2vh"}}>
         <SimpleImageSlider
-              width={1200}
-              height={800}
+              width="60vw"
+              height="40vw"
               slideDuration={0.05}
               images={images}
               showNavs={true}

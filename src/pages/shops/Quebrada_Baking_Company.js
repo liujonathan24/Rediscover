@@ -4,7 +4,7 @@ const Quebrada_Baking_Company = () => {
   return (
     <div>
         <div>
-          <img style={{ paddingTop:"1vh", paddingLeft:"29vw", paddingRight:"29vw", width:"fit-content"}} src="..\..\Quebrada_Baking_Company.jpg" alt="Capezio"></img>
+          <img style={{ paddingTop:"1vh", paddingLeft:"29vw", paddingRight:"29vw", width:"auto"}} src="..\..\Quebrada_Baking_Company.jpg" alt="Capezio"></img>
         </div>
         <div>
           <h1 className={"text-6xl font-semibold text-center"}>Quebrada Baking Company</h1>

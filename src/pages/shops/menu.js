@@ -77,7 +77,7 @@ const Shops = () => {
                   <Link to="the_cats_hospital">The Cat's Hospital</Link>
                 </Disclosure.Panel>
                 <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm text-gray-500">
-                  <Link to="universal_Pediatric_associations">Universal Pediatric Associations</Link>
+                  <Link to="Universal_Pediatric_Association">Universal Pediatric Association</Link>
                 </Disclosure.Panel>
               </>
             )}
