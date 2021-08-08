@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
       style = {{padding:"2vh", backgroundColor: "#f5c187", height: "12vh"}}
     >
       <Link to='/' className='pl-8'>
-        <img src={"/discover2.jpg"} style={{maxWidth:"17vw", paddingBottom:"1vh"}} />
+        <img src="/discover2.jpg" alt="Discover" style={{maxWidth:"17vw", paddingBottom:"1vh"}} />
       </Link>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
         <svg
@@ -28,10 +28,10 @@ const Navbar = ({ toggle }) => {
         </svg>
       </div>
       <div className='pr-8 md:block  wd:hidden '>
-      <Link to='/' className='p-6'>
+      <Link to='/center' className='p-6'>
           Wellesley Center
         </Link>
-        <Link to='/shops/index' className='p-6'>
+        <Link to='/shops/menu' className='p-6'>
           Shops
         </Link>
         <Link to='/map' className='p-6'>

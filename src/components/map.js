@@ -27,7 +27,7 @@ import { Link } from 'react-router-dom';
 
 const libraries = ["places"];
 const mapContainerStyle = {
-  height: "60vh",
+  height: "96vh",
   width: "80vw",
   left: "8vw",
   right: "8vw",

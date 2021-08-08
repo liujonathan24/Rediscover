@@ -27,10 +27,10 @@ import { Link } from 'react-router-dom';
 
 const libraries = ["places"];
 const mapContainerStyle = {
-  height: "60vh",
-  width: "50vw",
-  left: "23vw",
-  right: "23vw",
+  height: "96vh",
+  width: "80vw",
+  left: "8vw",
+  right: "8vw",
   top: "0",
   bottom: "5vh",
   padding: "5vh",
@@ -51,7 +51,7 @@ const center = {
 };
 
 
-export default function Hero () {
+export default function Center () {
 
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: "AIzaSyCtnOlCbp8TfNQbBQoby2GWEecFKn76_1Q",
@@ -72,8 +72,8 @@ export default function Hero () {
     {
       lat: 42.31120165047687, 
       lng: -71.2753824410739,
-      name: "TeamMates Fitness Pilates & Personal Training Studio",
-      page: "TeamMates_Fitness_Pilates_&_Personal_Training_Studio",
+      name: "TeamMates Fitness Pilates and Personal Training Studio",
+      page: "TeamMates_Fitness_Pilates_and_Personal_Training_Studio",
       address: "316 Washington St, Wellesley Hills, MA 02481",
       type: "sports",
       index: 2
@@ -82,7 +82,7 @@ export default function Hero () {
       lat: 42.31138177390486,
       lng: -71.2752333508035,
       name: "Singh's Cafe",
-      page: "Singh's_Cafe",
+      page: "Singhs_Cafe",
       address: "312 Washington St, Wellesley Hills, MA 02481",
       type: "food",
       index: 3
@@ -99,8 +99,8 @@ export default function Hero () {
     {
       lat: 42.312028356604394,
       lng: -71.27458033006664,
-      name: "Green's Hardware & Paint Inc",
-      page: "Green's_Hardware_&_Paint_Inc",
+      name: "Green's Hardware and Paint Inc",
+      page: "Greens_Hardware_and_Paint_Inc",
       address: "308 Washington St, Wellesley Hills, MA 02481",
       type: "utility",
       index: 5
@@ -127,7 +127,7 @@ export default function Hero () {
       lat: 42.312359784614785, 
       lng: -71.27430577087637,
       name: "Comella's Restaurants",
-      page: "Comella's_Restaurants",
+      page: "Comellas_Restaurants",
       address: "288 Washington St, Wellesley, MA 02481",
       type: "food",
       index: 8
@@ -163,7 +163,7 @@ export default function Hero () {
       lat: 42.31345197971681, 
       lng: -71.27396614401088,
       name: "Nabina's Threading and Spa",
-      page: "Nabina's_Threading_and_Spa",
+      page: "Nabinas_Threading_and_Spa",
       address: "265 Washington St, Wellesley Hills, MA 02481",
       type: "fashion",
       index: 12
@@ -208,7 +208,7 @@ export default function Hero () {
       lat: 42.3131479265818, 
       lng: -71.27535129695266,
       name: "The Cat's Hospital",
-      page: "The_Cat's_Hospital",
+      page: "The_Cats_Hospital",
       address: "459 Worcester St, Wellesley Hills, MA 02481",
       type: "hospital",
       index: 17
@@ -298,7 +298,7 @@ export default function Hero () {
                 </Link></b></h1>
                 
                 <p> {selected.address}</p>
-                <p style={{color:"#1049a3"}} ><Link to={"/" + selected.page}> Learn More </Link></p>
+                <p style={{color:"#1049a3"}} ><Link to={"/shops/" + selected.page}> Learn More </Link></p>
 
               </div>
             </InfoWindow>
