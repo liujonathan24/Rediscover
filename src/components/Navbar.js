@@ -9,7 +9,7 @@ const Navbar = ({ toggle }) => {
       style = {{padding:"2vh", backgroundColor: "#f5c187", height: "12vh"}}
     >
       <Link to='/' className='pl-8'>
-        <img src="/discover2.jpg" alt="Discover" style={{maxWidth:"17vw", paddingBottom:"1vh"}} />
+        <img src="/discover2.jpg" alt="Discover" style={{paddingBottom:"1vh", maxHeight:"12vh"}} />
       </Link>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
         <svg
