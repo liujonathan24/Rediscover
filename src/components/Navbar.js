@@ -4,11 +4,12 @@ import { Link } from 'react-router-dom';
 const Navbar = ({ toggle }) => {
   return (
     <nav
-      className='flex justify-between items-center h-16 bg-white text-black relative shadow-sm font-mono'
+      className='flex justify-between items-center h-20 bg-white text-black relative shadow-sm font-mono'
       role='navigation'
+      style = {{padding:"2vh", backgroundColor: "#f5c187", height: "12vh"}}
     >
       <Link to='/' className='pl-8'>
-        Future Logo
+        <img src={"/discover2.jpg"} style={{maxWidth:"17vw", paddingBottom:"1vh"}} />
       </Link>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
         <svg
@@ -27,18 +28,22 @@ const Navbar = ({ toggle }) => {
         </svg>
       </div>
       <div className='pr-8 md:block  wd:hidden '>
-        <Link to='/' className='p-4'>
-          Home
+      <Link to='/' className='p-6'>
+          Wellesley Center
         </Link>
-        <Link to='/menu' className='p-4'>
-          Menu
+        <Link to='/shops/index' className='p-6'>
+          Shops
         </Link>
-        <Link to='/about' className='p-4'>
+        <Link to='/map' className='p-6'>
+          Trails
+        </Link>
+        <Link to='/events' className='p-6'>
+          Events
+        </Link>
+        <Link to='/about' className='p-6'>
           About
         </Link>
-        <Link to='/contact' className='p-4'>
-          Contact
-        </Link>
+        
       </div>
     </nav>
   );

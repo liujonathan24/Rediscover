@@ -2,8 +2,8 @@ import React from 'react';
 
 function Footer() {
   return (
-      <>
-        <div className="mx-auto container pt-5 lg:pt-72 flex flex-col items-center justify-center">
+      <div style={{backgroundColor:"#f5c187"}}>
+        <div className="mx-auto container pt-5 lg:pt-7 flex flex-col items-center justify-center">
             <div className="text-black flex flex-col md:items-center f-f-l pt-3">
 
                 <h1 className="text-2xl font-black">Rediscover</h1>
@@ -17,7 +17,7 @@ function Footer() {
                     <ul className="md:flex items-center">
                         <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Events</li>
                         <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Explore the town</li>
-                        <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Last Option</li>
+                        <li className=" md:mr-6 cursor-pointer pt-4 lg:py-0">Trails</li>
                     </ul>
                 </div>
                 <div className="text-sm text-color mb-10 f-f-l">
@@ -25,7 +25,7 @@ function Footer() {
                 </div>
             </div>
         </div>
-      </>
+      </div>
   );
 }
 

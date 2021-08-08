@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import { Switch, Route } from 'react-router-dom';
-import Home from './pages';
+import MapPage from './pages/map';
 import About from './pages/about';
-import Menu from './pages/menu';
+import Shops from './pages/shops/index';
+import Events from './pages/events';
 import Footer from './components/Footer';
 import Dropdown from './components/Dropdown';
+import Home from './pages';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -35,9 +37,12 @@ function App() {
       <Dropdown isOpen={isOpen} toggle={toggle} />
       <Switch>
         <Route path='/' exact component={Home} />
-        <Route path='/menu' component={Menu} />
+        <Route path='/map' exact component={MapPage} />
+        <Route path='/events' component={Events} />
         <Route path='/about' component={About} />
+        <Route path='/shops' component={Shops} />
       </Switch>
+
       <Footer />
     </>
   );
