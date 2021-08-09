@@ -1,14 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import { Switch, Route } from 'react-router-dom';
-import MapPage from './pages/map';
+import MapPage from './components/map1';
 import About from './pages/about';
 import Shops from './pages/shops/menu';
 import Events from './pages/events';
 import Footer from './components/Footer';
 import Dropdown from './components/Dropdown';
 import Home from './pages';
-import Center from './components/Center';
+import Center from './components/Center1';
 import Capezio from './pages/shops/capezio';
 import TeamMates_Fitness_Pilates_and_Personal_Training_Studio from "./pages/shops/TeamMates_Fitness_Pilates_and_Personal_Training_Studio";
 import Singhs_Cafe from './pages/shops/singhs_cafe';
